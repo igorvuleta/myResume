@@ -83,7 +83,7 @@ let resumeData = {
       {
         "name":"Static React App",
         "description":"React App Resume made with React and JSX",
-        "url":"https://github.com/igorvuleta/node.js-server"
+        "url":"https://github.com/igorvuleta/myResume"
       }
      
     ],
