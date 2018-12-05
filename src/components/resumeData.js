@@ -78,7 +78,7 @@ let resumeData = {
       {
         "name":"Simple Node.js Server",
         "description":"Express App that is in the process of becoming a Web Shop",
-        "imgurl":"https://github.com/igorvuleta/node.js-server"
+        "url":"https://github.com/igorvuleta/node.js-server"
       },
       {
         "name":"Static React App",
