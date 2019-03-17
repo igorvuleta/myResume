@@ -5,9 +5,15 @@ export default class Header extends Component {
     return (
       <header id="home">
         <nav id="nav-wrap">
-          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+          <a
+            className="mobile-btn"
+            rel="nofollow"
+            href="#nav-wrap"
+            title="Show navigation"
+          >
             Show navigation
           </a>
+
           <a className="mobile-btn"  title="Hide navigation">
             Hide navigation
           </a>
@@ -62,7 +68,7 @@ export default class Header extends Component {
                 resumeData.socialLinks.map(item => {
                   return (
                     <li key={item.name}>
-                      <a href={item.url} target="_blank">
+                      <a href={item.url} rel="noopener noreferrer" target="_blank">
                         <i className={item.className} />
                       </a>
                     </li>

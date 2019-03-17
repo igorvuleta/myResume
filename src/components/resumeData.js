@@ -31,7 +31,14 @@ let resumeData = {
       
     ],
     "work":[
+      
       {
+        "CompanyName":"Wanko GmbH, Ainring Germany",
+        "specialization":"Software Developer",
+        "MonthOfLeaving":"Current",
+        "YearOfLeaving":"2019",
+        "Achievements":"Onboard on a C# Web Application with Websocket API"
+      },{
         "CompanyName":"Makrohaus Crossmedia",
         "specialization":"C# Mobile App Developer Praktikum",
         "MonthOfLeaving":"Sep",

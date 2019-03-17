@@ -15,9 +15,9 @@ export default class Portfolio extends Component {
               {resumeData.portfolio &&
                 resumeData.portfolio.map((item) => {
                   return (
-                    <div className="three columns header-col">
-                    <div className="stupid">
-                      <a href={item.url} target="_blank">Project</a>
+                    <div className="three columns header-col" key={item.name}>
+                    <div className="stupid" >
+                      <a href={item.url} rel="noopener noreferrer"  target="_blank">Project</a>
 
                       <h5>{item.name}</h5>
                       <p>{item.description}</p>
