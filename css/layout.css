@@ -441,6 +441,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 100%;  }
 }
+@-webkit-keyframes angular {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
+ @-webkit-keyframes graphql {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
